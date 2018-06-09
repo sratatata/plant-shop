@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="137px" preserveAspectRatio="none" style="width:321px;height:137px;" version="1.1" viewBox="0 0 321 137" width="321px" zoomAndPan="magnify"><defs><filter height="300%" id="f1e5palj76c175" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster net.zarski.conference.ci.plantshop--><polygon fill="#FFFFFF" filter="url(#f1e5palj76c175)" points="14,16,289,16,296,38.29,299,38.29,299,125,14,125,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="296" y1="38.29" y2="38.29"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="269" x="18" y="31.3027">net.zarski.conference.ci.plantshop</text><!--class net.zarski.conference.ci.plantshop.ShoppingCart--><rect fill="#FEFECE" filter="url(#f1e5palj76c175)" height="73.5986" id="net.zarski.conference.ci.plantshop.ShoppingCart" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="101.5" y="43"/><ellipse cx="116.5" cy="59" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M116.5938,65.3125 Q113.7344,65.3125 112.1719,63.625 Q110.6094,61.9375 110.6094,58.8594 Q110.6094,55.7969 112.2031,54.1016 Q113.7969,52.4063 116.6875,52.4063 Q119.3281,52.4063 121.4688,52.9531 L121.4688,54.8906 Q118.0313,53.7031 116.6563,53.7031 Q115.6563,53.7031 114.5625,55.0625 Q113.4688,56.4219 113.4688,58.875 Q113.4688,61.2344 114.6406,62.5938 Q115.8125,63.9531 116.8281,63.9531 Q118.5781,63.9531 121.4531,62.4531 L121.4531,64.375 Q119.75,65.3125 116.5938,65.3125 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="130.5" y="63.4209">ShoppingCart</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="102.5" x2="209.5" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="102.5" x2="209.5" y1="83" y2="83"/><ellipse cx="112.5" cy="94.8997" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="121.5" y="97.4521">ShoppingCart()</text><ellipse cx="112.5" cy="107.699" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="121.5" y="110.2515">size(): int</text><!--
+@startuml
+
+    namespace net.zarski.conference.ci.plantshop {
+        class ShoppingCart {
+            +ShoppingCart()
+            +size(): int
+        }
+    }
+
+@enduml
+
+PlantUML version 1.2018.05(Sat May 05 22:00:17 CEST 2018)
+(APACHE source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 10.0.1+10
+Operating System: Linux
+OS Version: 4.15.0-22-generic
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
