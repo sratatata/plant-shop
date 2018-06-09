@@ -18,5 +18,5 @@ Download relevant puml files:
 
 ## ADR
 If you haven't noticed, in the bar above you can browse all architecture decisions written previously with
-[adr-tools](https://github.com/npryce/adr-toolsi) by Nat Pryce ![Nat Avatar](https://avatars2.githubusercontent.com/u/56219?s=460&v=4).
+[adr-tools](https://github.com/npryce/adr-tools) by Nat Pryce ![Nat Avatar](https://avatars2.githubusercontent.com/u/56219?s=460&v=4).
 
