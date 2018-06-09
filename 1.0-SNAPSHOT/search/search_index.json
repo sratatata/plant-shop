@@ -109,6 +109,36 @@
             "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#consequences",
             "text": "Everyone needs to write it's uml diagrams in clean plant-uml and still remember to update it in commit. \nAny code review shouldn't pass if plant-uml diagram isn't updated.",
             "title": "Consequences"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/",
+            "text": "5. Use mkdocs for maintaining doc pages\n\u00b6\n\n\nDate: 2018-06-09\n\n\nStatus\n\u00b6\n\n\nAccepted\n\n\nContext\n\u00b6\n\n\njavadocs are not very pleasant according to project marketing. \nWe like an easy way to publish some techical articles related to our project\n\n\nDecision\n\u00b6\n\n\n\n\nWe are using mkdocs with mkdocs gradle plugin to generate docs pages. \n\n\nWe are going to host javadocs\n\n\nOur architectural decisions also would be shared on pages\n\n\nPages would be hosted as github pages \nplant-shop docs\n\n\n\n\nConsequences\n\u00b6\n\n\n\n\nPages would be hosted as github pages \nplant-shop docs\n\n\nConfluence is not main point for documentation any more\n\n\nDevelopers could feel lost, having many tools\n\n\nGradle configuration is going to be verboset",
+            "title": "5. Use mkdocs for maintaining doc pages"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/#5-use-mkdocs-for-maintaining-doc-pages",
+            "text": "Date: 2018-06-09",
+            "title": "5. Use mkdocs for maintaining doc pages"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/#status",
+            "text": "Accepted",
+            "title": "Status"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/#context",
+            "text": "javadocs are not very pleasant according to project marketing. \nWe like an easy way to publish some techical articles related to our project",
+            "title": "Context"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/#decision",
+            "text": "We are using mkdocs with mkdocs gradle plugin to generate docs pages.   We are going to host javadocs  Our architectural decisions also would be shared on pages  Pages would be hosted as github pages  plant-shop docs",
+            "title": "Decision"
+        },
+        {
+            "location": "/architecture/decisions/0005-use-mkdocs-for-maintaining-doc-pages/#consequences",
+            "text": "Pages would be hosted as github pages  plant-shop docs  Confluence is not main point for documentation any more  Developers could feel lost, having many tools  Gradle configuration is going to be verboset",
+            "title": "Consequences"
         }
     ]
 }
