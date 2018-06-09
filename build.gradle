@@ -31,6 +31,19 @@ mkdocs{
     strict = false
 }
 
+mkdocsServe.doFirst {
+    tasks.javadoc.execute()
+}
+
+mkdocsPublish.doFirst {
+    tasks.javadoc.execute()
+}
+
+mkdocsBuild.doFirst {
+    tasks.javadoc.execute()
+}
+
+
 javadoc {
     source = sourceSets.main.allJava
     options.docletpath = configurations.umlDoclet.files.asType(List)
