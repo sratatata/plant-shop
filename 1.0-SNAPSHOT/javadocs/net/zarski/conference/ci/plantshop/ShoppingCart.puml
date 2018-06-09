@@ -1,8 +1,8 @@
 @startuml
 
     namespace net.zarski.conference.ci.plantshop {
-        class ShoppingCart2 {
-            +ShoppingCart2()
+        class ShoppingCart {
+            +ShoppingCart()
             +size(): int
         }
     }

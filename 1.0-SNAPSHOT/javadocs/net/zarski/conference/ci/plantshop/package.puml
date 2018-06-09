@@ -2,15 +2,15 @@
 
     namespace net.zarski.conference.ci.plantshop {
 
+        class ShoppingCart {
+            +ShoppingCart()
+            +size(): int
+        }
+
         class Session {
             +Session()
             +put(String, Object): void
             +get(String): Object
-        }
-
-        class ShoppingCart2 {
-            +ShoppingCart2()
-            +size(): int
         }
 
         class Shop {
