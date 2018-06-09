@@ -1,0 +1,10 @@
+@startuml
+
+    namespace net.zarski.conference.ci.plantshop {
+        class ShoppingCart2 {
+            +ShoppingCart2()
+            +size(): int
+        }
+    }
+
+@enduml

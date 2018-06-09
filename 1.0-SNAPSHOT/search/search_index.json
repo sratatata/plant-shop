@@ -1,0 +1,114 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "About\n\u00b6\n\n\nWelcome on PlantShop\n\n\nThis page would guide you through amazing world of \ncontinous integration with documentation. \n\n\nJavadocs\n\u00b6\n\n\nPlease browse our \njavadoc\n for more detailed informations.\n\n\nPlease notice adorable usage of plantuml diagrams in generated docs.\n\n\n\n\nDownload relevant puml files:\n\n\n\n\nnet.zarski.conference.ci.plantshop\n\n\nnet.zarski.conference.ci.plantshop.Shop\n\n\n\n\nADR\n\u00b6\n\n\nIf you haven't noticed, in the bar above you can browse all architecture decisions written previously with\n\nadr-tools\n by Nat Pryce \n.",
+            "title": "About"
+        },
+        {
+            "location": "/#about",
+            "text": "Welcome on PlantShop  This page would guide you through amazing world of \ncontinous integration with documentation.",
+            "title": "About"
+        },
+        {
+            "location": "/#javadocs",
+            "text": "Please browse our  javadoc  for more detailed informations.  Please notice adorable usage of plantuml diagrams in generated docs.   Download relevant puml files:   net.zarski.conference.ci.plantshop  net.zarski.conference.ci.plantshop.Shop",
+            "title": "Javadocs"
+        },
+        {
+            "location": "/#adr",
+            "text": "If you haven't noticed, in the bar above you can browse all architecture decisions written previously with adr-tools  by Nat Pryce  .",
+            "title": "ADR"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/",
+            "text": "1. Record architecture decisions\n\u00b6\n\n\nDate: 2018-06-09\n\n\nStatus\n\u00b6\n\n\nAccepted\n\n\nContext\n\u00b6\n\n\nWe need to record the architectural decisions made on this project.\n\n\nDecision\n\u00b6\n\n\nWe will use Architecture Decision Records, as described by Michael Nygard in this article: \nhttp://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions\n\n\nConsequences\n\u00b6\n\n\nSee Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's \nadr-tools\n at \nhttps://github.com/npryce/adr-tools\n.",
+            "title": "1. Record architecture decisions"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/#1-record-architecture-decisions",
+            "text": "Date: 2018-06-09",
+            "title": "1. Record architecture decisions"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/#status",
+            "text": "Accepted",
+            "title": "Status"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/#context",
+            "text": "We need to record the architectural decisions made on this project.",
+            "title": "Context"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/#decision",
+            "text": "We will use Architecture Decision Records, as described by Michael Nygard in this article:  http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions",
+            "title": "Decision"
+        },
+        {
+            "location": "/architecture/decisions/0001-record-architecture-decisions/#consequences",
+            "text": "See Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's  adr-tools  at  https://github.com/npryce/adr-tools .",
+            "title": "Consequences"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/",
+            "text": "2. Use the javadoc to document classes and methods\n\u00b6\n\n\nDate: 2018-06-09\n\n\nStatus\n\u00b6\n\n\nAccepted\n\n\nContext\n\u00b6\n\n\nContext here...\n\n\nDecision\n\u00b6\n\n\nDecision here...\n\n\nConsequences\n\u00b6\n\n\nConsequences here...",
+            "title": "2. Use the javadoc to document classes and methods"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/#2-use-the-javadoc-to-document-classes-and-methods",
+            "text": "Date: 2018-06-09",
+            "title": "2. Use the javadoc to document classes and methods"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/#status",
+            "text": "Accepted",
+            "title": "Status"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/#context",
+            "text": "Context here...",
+            "title": "Context"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/#decision",
+            "text": "Decision here...",
+            "title": "Decision"
+        },
+        {
+            "location": "/architecture/decisions/0002-use-the-javadoc-to-document-classes-and-methods/#consequences",
+            "text": "Consequences here...",
+            "title": "Consequences"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/",
+            "text": "4. Use the plantuml as an default way to create uml diagrams\n\u00b6\n\n\nDate: 2018-06-09\n\n\nStatus\n\u00b6\n\n\nAccepted\n\n\nContext\n\u00b6\n\n\nIt's occuring very often that drawn documentations is no longer up to date.  \n\n\nDecision\n\u00b6\n\n\nWe are going to use \nPlantUml\n to store our diagrams in repository.\n\n\nConsequences\n\u00b6\n\n\nEveryone needs to write it's uml diagrams in clean plant-uml and still remember to update it in commit.\n\nAny code review shouldn't pass if plant-uml diagram isn't updated.",
+            "title": "4. Use the plantuml as an default way to create uml diagrams"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#4-use-the-plantuml-as-an-default-way-to-create-uml-diagrams",
+            "text": "Date: 2018-06-09",
+            "title": "4. Use the plantuml as an default way to create uml diagrams"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#status",
+            "text": "Accepted",
+            "title": "Status"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#context",
+            "text": "It's occuring very often that drawn documentations is no longer up to date.",
+            "title": "Context"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#decision",
+            "text": "We are going to use  PlantUml  to store our diagrams in repository.",
+            "title": "Decision"
+        },
+        {
+            "location": "/architecture/decisions/0004-use-the-plantuml-as-an-default-way-to-create-uml-diagrams/#consequences",
+            "text": "Everyone needs to write it's uml diagrams in clean plant-uml and still remember to update it in commit. \nAny code review shouldn't pass if plant-uml diagram isn't updated.",
+            "title": "Consequences"
+        }
+    ]
+}

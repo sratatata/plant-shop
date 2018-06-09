@@ -1,0 +1,11 @@
+@startuml
+
+    namespace net.zarski.conference.ci.plantshop {
+        class Session {
+            +Session()
+            +put(String, Object): void
+            +get(String): Object
+        }
+    }
+
+@enduml
