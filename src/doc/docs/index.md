@@ -9,7 +9,7 @@ continous integration with documentation.
 Please browse our [javadoc](javadocs/index.html) for more detailed informations.
 
 Please notice adorable usage of plantuml diagrams in generated docs.  
-![Plant UML](javadocs/net/zarski/conference/ci/plantshop/package.png)
+![Plant UML](javadocs/net/zarski/conference/ci/plantshop/package.svg)
 
 Download relevant puml files:
 

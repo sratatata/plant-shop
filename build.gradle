@@ -49,6 +49,6 @@ javadoc {
     options.docletpath = configurations.umlDoclet.files.asType(List)
     options.doclet = "nl.talsmasoftware.umldoclet.UMLDoclet"
     destinationDir = reporting.file("$projectDir/src/doc/docs/javadocs")
-    options.addStringOption "umlImageFormat", "png"
+//    options.addStringOption "umlImageFormat", "svg"
     options.addBooleanOption('html5', true)
 }
