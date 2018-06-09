@@ -1,6 +1,6 @@
 package net.zarski.conference.ci.plantshop;
 
-public class ShoppingCart2 {
+public class ShoppingCart {
 
     public int size() {
         return 0;

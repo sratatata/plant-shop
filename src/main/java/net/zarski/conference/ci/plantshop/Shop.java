@@ -20,15 +20,15 @@ public class Shop {
     public static void main(String... args){
         Shop shop = new Shop("Plant's shop");
         Session session = shop.registerNewSession();
-        ShoppingCart2 shoppingCart2 = new ShoppingCart2();
-        session.put("cart", shoppingCart2);
+        ShoppingCart shoppingCart = new ShoppingCart();
+        session.put("cart", shoppingCart);
 
         shop.displayGreeting();
         shop.displayStatus();
     }
 
     private void displayStatus() {
-        System.out.println(String.format("You have %s products in your cart.", ((ShoppingCart2)session.get("cart")).size()));
+        System.out.println(String.format("You have %s products in your cart.", ((ShoppingCart)session.get("cart")).size()));
     }
 
     private Session registerNewSession() {
