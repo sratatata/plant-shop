@@ -2,6 +2,12 @@
 
     namespace net.zarski.conference.ci.plantshop {
 
+        class Store {
+            +Store(String)
+            +getShopName(): String
+            {static} +main(String...): void
+        }
+
         class ShoppingCart {
             +ShoppingCart()
             +size(): int
@@ -12,14 +18,8 @@
             +put(String, Object): void
             +get(String): Object
         }
-
-        class Shop {
-            +Shop(String)
-            +getShopName(): String
-            {static} +main(String...): void
-        }
     }
 
-    net.zarski.conference.ci.plantshop.Shop --> net.zarski.conference.ci.plantshop.Session: currentSession
+    net.zarski.conference.ci.plantshop.Store --> net.zarski.conference.ci.plantshop.Session: currentSession
 
 @enduml

@@ -1,0 +1,12 @@
+@startuml
+
+    namespace net.zarski.conference.ci.plantshop {
+        class Store {
+            +Store(String)
+            +getShopName(): String
+            +getCurrentSession(): Session
+            {static} +main(String...): void
+        }
+    }
+
+@enduml
